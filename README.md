@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/cph-ms782/Test_startCode_3sem.svg?branch=master)](https://travis-ci.org/cph-ms782/Test_startCode_3sem)
 
 *This project is meant as start code for projects and exercises given in Flow-1+2 at http://cphbusiness.dk in the Study Program "AP degree in Computer Science"*
 
