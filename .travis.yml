@@ -36,8 +36,8 @@ before_script:
 #- sudo -E dpkg -i mysql-apt-config_0.8.13-1_all.deb
 #- sudo apt-get update
 
-- echo "Installing MySQL 8..."
-- sudo -E apt-get -y install mysql-server
+#- echo "Installing MySQL 8..."
+#- sudo -E apt-get -y install mysql-server
 
 - sudo mysql -u root -e "CREATE User 'dev'@'localhost' IDENTIFIED BY 'ax2'; GRANT ALL PRIVILEGES ON *.* TO 'dev'@'localhost' WITH GRANT OPTION;"
  - sudo mysql -u root -e "CREATE DATABASE startcodev2-test;"
